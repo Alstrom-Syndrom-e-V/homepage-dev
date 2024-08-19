@@ -1,0 +1,67 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+pageRef = "/"
+weight = 1
+
+[[main]]
+name = "Verein"
+pageRef = "/pages/verein"
+weight = 2
+
+[[main]]
+parent = "Verein"
+name = "Über uns"
+pageRef = "/pages/ueber-uns"
+weight = 2
+
+[[main]]
+parent = "Verein"
+name = "Unterstützung"
+pageRef = "/pages/unterstuetzung"
+weight = 2
+
+[[main]]
+parent = "Verein"
+name = "Spenden"
+pageRef = "/pages/spenden"
+weight = 3
+
+[[main]]
+parent = "Verein"
+name = "Ehrenamt"
+pageRef = "/authors"
+weight = 4
+
+[[main]]
+name = "Alström Syndrom"
+pageRef = "pages/alstroem-syndrom"
+weight = 3
+
+[[main]]
+weight = 4
+name = "Contact"
+pageRef = "/contact"
+
+[[main]]
+weight = 5
+name = "Blog"
+pageRef = "/blog"
+
+# footer menu
+[[footer]]
+name = "About"
+pageRef = "/about"
+weight = 1
+
+[[footer]]
+name = "Elements"
+pageRef = "/elements"
+weight = 2
+
+[[footer]]
+name = "Privacy Policy"
+pageRef = "/privacy-policy"
+weight = 3
