@@ -22,8 +22,8 @@ features:
       - "Bekanntmachung in Medizin und Forschung"
     button:
       enable: true
-      label: "Vereinssatzung herunterladen  "
-      link: "#"
+      label: "Vereinssatzung anzeigen"
+      link: "/vereinssatzung"
 
   - title: "Wie finanzieren wir uns?"
     image: "/images/undraw/undraw_printing_invoices.svg"
@@ -36,6 +36,6 @@ features:
     button:
       enable: true
       label: "Jetzt spenden"
-      link: "#"
+      link: "/spenden"
 
 ---

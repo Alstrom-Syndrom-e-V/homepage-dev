@@ -36,14 +36,20 @@ pageRef = "/authors"
 weight = 4
 
 [[main]]
+parent = "Verein"
+name = "Vereinssatzung"
+pageRef = "/vereinssatzung"
+weight = 5
+
+[[main]]
 name = "Alström Syndrom"
 pageRef = "pages/alstroem-syndrom"
 weight = 3
 
 [[main]]
 weight = 4
-name = "Contact"
-pageRef = "/contact"
+name = "Kontakt"
+pageRef = "/kontakt"
 
 [[main]]
 weight = 5
@@ -51,17 +57,15 @@ name = "Blog"
 pageRef = "/blog"
 
 # footer menu
+
 [[footer]]
-name = "About"
-pageRef = "/about"
+name = "Datenschutzerklärung"
+pageRef = "/datenschutz"
 weight = 1
 
 [[footer]]
-name = "Elements"
-pageRef = "/elements"
+name = "Impressum"
+pageRef = "/impressum"
 weight = 2
 
-[[footer]]
-name = "Privacy Policy"
-pageRef = "/privacy-policy"
-weight = 3
+
